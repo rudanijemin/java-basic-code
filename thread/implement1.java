@@ -8,7 +8,7 @@ class implement1 implements Runnable
         }
     }
     public static void main(String[] args) {
-        extends1 e = new extends1();
+        implement1 e = new implement1();
         Thread t = new Thread(e);
         t.start();
 
