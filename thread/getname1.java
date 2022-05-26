@@ -10,12 +10,12 @@ public class getname1 extends Thread
     public static void main(String[] args) {
         getname1 td = new getname1();
         td.setName("jemin");
-        td.setPriority(5);
+        td.setPriority(10);
         td.start();
 
         getname1 td1 = new getname1();
         td1.setName("jaydip");
-        td1.setPriority(10);
+        td1.setPriority(5);
         td1.start();
     }
  

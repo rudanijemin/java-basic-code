@@ -19,8 +19,8 @@ class sleep1 extends Thread
         
     }
     public static void main(String[] args) {
-        sleep1 e = new sleep1();
-        e.start();
+        sleep1 e1 = new sleep1();
+        e1.start();
 
 
         try
